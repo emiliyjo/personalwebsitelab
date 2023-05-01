@@ -51,10 +51,11 @@ video {
 }
 
 .img{
-  width:70vw;
-  height:90%;
+  width:50vw;
+  height:50vh;
   position:absolute;
-  right:0
+  right:0;
+  top:0
   
 }
 
@@ -90,8 +91,8 @@ display:flex;
 
 .home{
   font-size:90px;
-  position:auto;
-  ;
+  position:absolute;
+  bottom:0;
   font-family:"futura";
   
   
