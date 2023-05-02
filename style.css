@@ -55,7 +55,7 @@ video {
   height:50vh;
   position:absolute;
   right:0;
-  top:0
+  bottom:0
   
 }
 
@@ -69,6 +69,9 @@ display:flex;
   color:#FDFF9D;
    -webkit-text-stroke-width: 0.7px;
   -webkit-text-stroke-color: black;
+  align-items: flex-end;
+  z-index: 3;
+  position: relative;
 
 }
 
