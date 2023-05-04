@@ -1,0 +1,163 @@
+.airtable-items{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content:center;
+  margin:20px;
+}
+
+.airtable-image{
+  width: auto; 
+}
+
+.airtable-item > img{
+  width:100%;
+}
+
+.airtable-item{
+  display: flex;
+  width: 20%;
+  border: 1px solid black; 
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  margin:50px;
+  padding:40px;
+}
+
+.Modernism-filter-show{
+  background-color: white;
+  display: block;
+}
+
+.Modernism-filter-hide{
+  display: none; 
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  text-align:center;
+  
+}
+
+
+
+
+.menu button:hover{
+      color:white;
+   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+@font-face{
+  font-family:"bebas";
+  font-style:normal;
+  font-weight:400;
+  src:url("https://cdn.glitch.global/ba2f3613-6939-4e9f-960a-a443e0de51a2/Bebas-Regular.otf?v=1680747441636")
+}
+
+@font-face{
+  font-family:"futura";
+  font-style:normal;
+  font-weight:400;
+  src:url("https://cdn.glitch.global/1d373a5d-bbdf-4df9-a26b-4dce03374c9f/futur.ttf?v=1683043927639");
+}
+
+.title{
+  font-family:"bebas";
+  justify-content:center;
+  display:flex;
+}
+
+.hidden{
+  display: none
+}
+
+description{
+  font-family:"futura";
+  font-size:20px;
+}
+
+subject{
+  font-family:"futura";
+  justify-content:center;
+  display:flex;
+  font-size:18px;
+}
+
+link{
+  font-family:"futura";
+  font-size:10px;
+  justify-content:center;
+  display:flex;
+  
+}
+
+Name{
+  font-family:"futura";
+  font-size:30px;
+}
+
+
+.btn-filter{
+  margin:20px;
+}
+
+.left{
+  width:20%;
+  height:100%;
+  
+}
+
+
+.right{
+  width:80%;
+  height:100%;
+  background-color:none;
+  display:flex;
+  float:right;
+  flex-direction:row;
+}
+
+.menu{
+  font-family:"futura";
+  font-size:9px;
+   padding:150px 40px;
+  display:flex;
+  flex-direction:column;
+}
+
+.menu h2{
+  padding:9px
+}
+
+
+.portfolio{
+  font-size:2.5vw;
+  padding:50px 30px;
+  font-family:futura;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  bottom:0;
+ 
+}
+
+.type{
+  font-size:18px;
+}
+
+button{
+  font-size:18px;
+  width:40px;
+  font-family:"futura";
+  border:none;
+  background-color: inherit;
+  text-align:left;
+  padding:10px;
+
+}
